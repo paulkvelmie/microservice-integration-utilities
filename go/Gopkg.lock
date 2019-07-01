@@ -25,6 +25,14 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:f52b572918713ac56d429c75baa3038d865d66325d659fa01c5e83ffe48e19cc"
+  name = "github.com/iPaulK/microservice-integration-utilities"
+  packages = ["go/internal/services"]
+  pruneopts = ""
+  revision = "f7967bd9f8f9244fa5589e281fda05bbdf9d4872"
+
+[[projects]]
+  branch = "master"
   digest = "1:31cd6e3c114e17c5f0c9e8b0bcaa3025ab3c221ce36323c7ce1acaa753d0d0aa"
   name = "golang.org/x/net"
   packages = [
@@ -70,6 +78,7 @@
     "github.com/aws/aws-lambda-go/events",
     "github.com/aws/aws-lambda-go/lambda",
     "github.com/basgys/goxml2json",
+    "github.com/iPaulK/microservice-integration-utilities/go/internal/services",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
