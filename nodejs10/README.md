@@ -8,7 +8,7 @@ Provide an AWS account that have sufficient access so that serverless can deploy
 serverless config credentials --provider aws --key YOUR_AWS_ACCESS_KEY --secret YOUR_AWS_SECRET_KEY
 ```
 
-### Enter the project's folder and install NPM packages via npm install
+### Install NPM packages
 
 Enter the project's folder and install NPM packages via npm install
 
@@ -34,7 +34,7 @@ serverless invoke -f xml2json
 
 ### Endpoints
 
-## xml2json
+## xmltojson
 
 - CURL request:
 ```sh
